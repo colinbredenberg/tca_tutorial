@@ -1,0 +1,7 @@
+numpy
+ipykernel
+matplotlib
+scikit-learn
+tensortools @ git+https://github.com/neurostatslab/tensortools
+dandi>=0.74.0
+pynwb
