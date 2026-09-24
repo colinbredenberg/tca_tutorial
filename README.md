@@ -3,7 +3,7 @@ Repository for a tutorial on tensor decompositions applied to neural data
 
 ## Setup
 
-Step 1: create a python 3.10 virtual environment .venv
+Step 1: create a python 3.13 virtual environment .venv in this repository folder
 
 ```
 python -m venv .venv
