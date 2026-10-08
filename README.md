@@ -27,4 +27,8 @@ pip install -r requirements.txt
 
 ## Instructions for downloading the dataset
 
-We can save time on the day of the tutorial if you download the dataset that we will be working with in advance. This section of the code is still under construction, and we will have further instructions for you by October 8.
+We can save time on the day of the tutorial if you download the dataset that we will be working with in advance.
+
+To download the data, first run the setup instructions above. Open `tutorial.ipynb` and select `.venv` as your kernel (to ensure that the IPython notebook has access to the packages we required in requirements.txt).
+
+Finally, run the first two cells. The second cell will download a file `M1_LC_data.npy` into your code repo. It is ~400 Mb, so make sure you have space on your computer!
