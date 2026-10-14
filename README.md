@@ -8,6 +8,16 @@ Before you come to the tutorial session, please try to download code and install
 
 If you are unable to download the code, don't worry! We will work through it on the day of the tutorial, and you will be fine as long as someone in your group has the code working.
 
+As a preliminary step, ensure that you have cloned this Github repository to a folder on your computer, and have opened the folder in your IDE of choice. This code was developed and tested on a Mac with Python 3.13 installed, using VSCode as the IDE--you may have the best luck under these conditions. 
+
+If you are using a Windows computer, I would recommend downloading either Windows Subsystem for Linux (WSL) or Git Bash, which will provide a similar command-line experience to working with the terminal on a Mac (based on UNIX). If you run into trouble, you can check out Chapter 2 of [this tutorial](https://wcresko.github.io/BioE_Comp_Tools_Fa2026/book/chapters/02-your-toolkit.html), which provides instructions for UNIX, Linux, and Windows for installing the basic components necessary to run this software. Alternatively, simply use the different required commands that are appropriate for the Windows shell.
+
+Step 0: Navigate in your shell (command line) to a folder you would like the code to be, then download the code repository from Github using the following command.
+```
+git clone https://github.com/colinbredenberg/tca_tutorial.git
+```
+
+
 Step 1: create a python 3.13 virtual environment .venv in this repository folder
 
 ```
